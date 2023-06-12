@@ -1,5 +1,5 @@
 #  BeautyFlix
-![imagen-demo](./public/beauty-demo.jpg)
+![imagen-demo](./public/beautyflix-demo.jpg)
 ---
 ## Nota:
 
