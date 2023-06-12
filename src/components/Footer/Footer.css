@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 3% 60px 3%;
+    background-color: #191919;
+    border-top: 3px solid #ff00fd;
+}
+
+.copyright__text {
+    color: #ffffff
+    ;
+}
+
+.copyright__link {
+    color: #ff00fd;
+}
+
+.copyright__link:hover {
+    color: #ff66f6;
+}
+
+
+@media screen and (max-width: 425px) {
+    .footer {
+        padding: 20px 3%;
+    }
+}

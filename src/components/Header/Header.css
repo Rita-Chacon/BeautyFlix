@@ -1,0 +1,26 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 3%;
+    background-color: black;
+    border-bottom: 5px solid #ff00fd;
+    position: relative;
+    z-index: 1;
+}
+
+.header__link {
+    text-decoration: none;
+    border: 1px solid #F5F5F5;
+    color: #F5F5F5;
+    font-size: 21px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 425px) {
+    .header__container {
+        padding: 17px 3%;
+    }
+}

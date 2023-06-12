@@ -1,0 +1,32 @@
+.addvideo {
+    height: auto;
+    padding: 50px 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.form__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.buttons__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.buttons__container Button:last-child {
+    margin-left: auto;
+}
+
+.addvideo__link {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,71 @@
+.banner {
+    background-image: url('../../../src/assets/images/bkg_banner.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    color: #fff;
+    
+}
+
+.banner__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.info__banner {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title__category {
+    margin: 0;
+    background-color:#6BD1FF;
+    width: 300px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.title__banner {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 0px;
+    color: #ffffff;
+    background-color: #000;
+    border-radius: 5px;
+    
+    
+}
+
+.paragraph__banner {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #000;
+    border-radius: 5px;
+    
+}
+
+@media screen and (max-width: 425px) {
+    .title__banner {
+        font-size: 27px;
+    }
+
+    .paragraph__banner {
+        font-size: 16px;
+    }
+}
